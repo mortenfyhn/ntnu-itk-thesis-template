@@ -1,5 +1,7 @@
 # ntnu-itk-thesis-template
-A template for theses at NTNU's Department of Engineering Cybernetics (and other places).
+A template for theses at NTNU's Department of Engineering Cybernetics (and other places). It looks like this:
+
+![Screenshot](screenshot.png)
 
 ## How to use
 Pretty straightforward---just copy everything and replace the contents with your thesis.
