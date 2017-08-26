@@ -13,6 +13,10 @@ Pretty straightforward---just copy everything and replace the contents with your
 * `config.sty`: Put all your `usepackage` commands and other document configuration stuff here.
 * `Thesis.tex`: The main thesis source file, which includes all your chapters, etc.
 
+## Dependencies
+
+* __biber__: The template is set up with [biblatex](https://www.sharelatex.com/learn/Bibliography_management_in_LaTeX) to manage your bibliography, using the biber backend. On Linux, you might have to install biber with `sudo apt install biber` or similar. On Windows, at least MikTex includes biber by default. On OS X, I don't know. If you have trouble with biblatex, you can use the older bibtex instead. Use for instance [this guide](https://www.sharelatex.com/learn/Bibliography_management_with_bibtex).
+
 ## How it's configured
 
 * Page size B5.
