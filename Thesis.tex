@@ -1,0 +1,27 @@
+\documentclass[10pt,b5paper,twoside,openright]{book}
+\usepackage{config}
+\addbibresource{bib/bibliography.bib}
+\begin{document}
+
+\frontmatter
+\pagestyle{plain}
+\begingroup
+\let\cleardoublepage\clearpage
+\input{tex/01-abstract}
+\input{tex/02-sammendrag}
+\tableofcontents \clearpage
+\listoftables    \clearpage
+\listoffigures   \clearpage
+\endgroup
+
+\mainmatter
+\pagestyle{headings}
+\input{tex/1-introduction}
+
+\appendix
+\input{tex/A-model}
+
+\backmatter
+\printbibliography[heading=bibintoc,title={References}]
+
+\end{document}

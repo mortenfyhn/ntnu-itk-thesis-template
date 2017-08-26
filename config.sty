@@ -1,0 +1,32 @@
+\ProvidesPackage{config}
+
+\usepackage[T1]{fontenc}          % Set T1 (8-bit) font encoding
+\usepackage[utf8]{inputenc}       % Accept accented characters
+\usepackage{amsmath}              % It's amsmath
+\usepackage{graphicx}             % Include images nicely
+\usepackage{libertine}            % Better text font
+\usepackage[libertine]{newtxmath} % Better math font
+\usepackage{inconsolata}          % Better monospace font
+\usepackage[final]{microtype}     % Better text justification
+\usepackage[hidelinks]{hyperref}  % Links in document
+\usepackage{breakcites}           % Linebreak citations
+\usepackage{booktabs}             % For sexier tables
+\usepackage[
+  backend=biber, style=ieee, doi=false, url=false, isbn=false
+]{biblatex}                       % Set up bibliography
+\usepackage{setspace}             % Custom line spacing
+\usepackage{lipsum}               % For placeholder text, you can remove this
+\usepackage{epstopdf}             % Convert .eps to .pdf
+
+\onehalfspacing                   % Set 1.5 line spacing
+\setlength\bibitemsep{10pt}       % Give the bibliograhpy some air
+\renewcommand{\arraystretch}{1.2} % Give lists/tables some air, too
+\setcounter{secnumdepth}{3}       % Set table of contents depth to 3
+
+% Make ligatures and stuff copyable from pdf
+\pdfgentounicode=1
+\input{glyphtounicode}
+
+% Define chapter names for abstracts
+\newcommand*{\englishabstractname}{Abstract}
+\newcommand*{\norwegianabstractname}{Sammendrag}
