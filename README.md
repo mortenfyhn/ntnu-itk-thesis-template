@@ -7,7 +7,7 @@ A template for theses at NTNU's Department of Engineering Cybernetics (and other
 Pretty straightforward---just copy everything and replace the contents with your thesis.
 
 * `bib/`: Put your bibliography files here.
-    - You should use probably use [Mendeley](mendeley.com) or [Zotero](zotero.org) or [EndNote](endnote.com) or something, so you don't have to write these manually.
+    - You should use probably use [Mendeley](https://mendeley.com) or [Zotero](http://zotero.org) or [EndNote](https://endnote.com) or something, so you don't have to write these manually.
 * `img/`: Put your graphics here.
 * `tex/`: Put your tex source files here. I usually create one file per chapter.
 * `config.sty`: Put all your `usepackage` commands and other document configuration stuff here.
