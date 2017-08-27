@@ -1,6 +1,5 @@
 \documentclass[10pt,b5paper,twoside,openright]{book}
 \usepackage{config}
-\addbibresource{bib/bibliography.bib}
 \begin{document}
 
 \frontmatter
@@ -22,6 +21,7 @@
 \input{tex/A-model}
 
 \backmatter
-\printbibliography[heading=bibintoc,title={References}]
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliography{bib/bibliography}
 
 \end{document}
