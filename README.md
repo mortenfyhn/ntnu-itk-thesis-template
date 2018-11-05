@@ -1,4 +1,4 @@
-# ntnu-itk-thesis-template
+# [NTNU ITK](https://www.ntnu.edu/itk) thesis template
 A template for theses at NTNU's Department of Engineering Cybernetics (and other places). It looks like this:
 
 ![Screenshot](screenshot.png)
